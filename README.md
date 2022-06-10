@@ -21,3 +21,5 @@ You can move it to a directory inside your PATH as well if you want...
 
 # Example
 ![alt text](screenshot.png "Example")
+
+In this example I added the `show-font` to my PATH so I could use it from anywhere in my terminal.
