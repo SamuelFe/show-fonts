@@ -6,7 +6,7 @@ I wanted something like that to see which icons I had installed in my system so 
 # Dependencies
 `perl`
 
-# OK.. how do I install?
+# OK.. how do put this in my computer?
 You can select the contents inside `show-font` and save in a file with the name of `show-font` as well.
 Then you will need to provide the permition to execute the script.
 ```
@@ -20,6 +20,7 @@ You can move it to a directory inside your PATH as well if you want...
 ```
 
 # Example
+Disclaimer: the picture below only have "icons" because the font is done with only those glyphs, if a font contais characters such as `A B * &` they will be displayed as well.
 ![alt text](screenshot.png "Example")
 
 In this example I added the `show-font` to my PATH so I could use it from anywhere in my terminal.
