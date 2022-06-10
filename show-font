@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# writes the font glyphs into a temp file
+ttfdump -t cmap -i $1 | perl -CS -ne 'print chr(hex($1)) if /Char (0x[[:xdigit:]]+)/ and hex($1) != 0xffff; END {print "\n"}' > /tmp/font
+
+# insert new line after 60 glyphs
+sed -i 's/.\{30\}/&\n/g' /tmp/font
+
+# insert a space between every glyph
+sed 's/./& /g' /tmp/font
+
