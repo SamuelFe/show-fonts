@@ -7,9 +7,9 @@ I wanted something like that to see which icons I had installed in my system so 
 `perl`
 
 # Usage
+```
 ./show-icons /path/to/font
+```
 
 # Example
-```
-./show-icons '~/.local/share/fonts/material_design_iconic_font.ttf'
-```
+`![alt text](screenshot.png "Title")``
