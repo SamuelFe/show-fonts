@@ -30,4 +30,4 @@ Disclaimer: the picture below only have "icons" because the font is done with on
 In this example I added the `show-font` script to my PATH so I could use it from anywhere in my terminal.
 
 # Known issues
-In my tests, it didn't work with some fonts I have (`waffle.bdf` and `iosevka_nerd_font.ttf`)
+In my tests, it didn't work with some fonts I have ( `waffle.bdf` and `iosevka_nerd_font.ttf` )
